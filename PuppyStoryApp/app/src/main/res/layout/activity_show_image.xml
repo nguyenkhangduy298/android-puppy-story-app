@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    tools:context=".ShowImageActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_delete_black_24dp"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/delete_dog_image"
+        android:layout_alignParentLeft="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_file_download_black_24dp"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/download_dog_image"/>
+
+    <ImageView
+        android:id="@+id/uploaded_image"
+        android:layout_width="800dp"
+        android:layout_height="700dp"
+        android:layout_centerInParent="true"
+        android:transitionName="uploadedImageTransition" />
+
+</RelativeLayout>

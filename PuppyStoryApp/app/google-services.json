@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "800419822106",
+    "firebase_url": "https://puppyapp-2c7cf.firebaseio.com",
+    "project_id": "puppyapp-2c7cf",
+    "storage_bucket": "puppyapp-2c7cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800419822106:android:f650320e03d40a2a",
+        "android_client_info": {
+          "package_name": "com.example.admin.puppyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800419822106-enrim65k92pfft9vsv7v5btk0v1bgo4g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.admin.puppyapp",
+            "certificate_hash": "8557d1c75aad5868e5cbbf0263cb2254d9e1b7b3"
+          }
+        },
+        {
+          "client_id": "800419822106-u8i3irp6vi17kmkrih2vh9s00bpt0bnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh3uwhW9P_h5EMMkZHkCte6r9WIqUBfFg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800419822106-u8i3irp6vi17kmkrih2vh9s00bpt0bnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
